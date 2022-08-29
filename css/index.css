@@ -1,0 +1,15 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.wrapper {
+  padding: 16px;
+}
+
+.inputs .range-slider {
+  position: relative;
+  margin: 30px 0;
+}

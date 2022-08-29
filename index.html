@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <link rel="stylesheet" href="./css/standard.min.css" />
+    <link rel="stylesheet" href="./css/ui-range.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper center">
+      <h1 class="paper">Крутите ползунки и наблюдайте за изменением цвета фона!</h1>
+      <div class="inputs paper shadow">
+        <div
+          class="range-slider"
+          style="
+            --min: 1;
+            --max: 255;
+            --value: 255;
+            --text-value: '255';
+            --prefix: 'R:';
+          "
+        >
+          <input
+            id="r"
+            type="range"
+            min="1"
+            max="255"
+            value="255"
+            oninput=""
+          />
+          <output></output>
+          <div class="range-slider__progress"></div>
+        </div>
+        <div
+          class="range-slider"
+          style="
+            --min: 1;
+            --max: 255;
+            --value: 255;
+            --text-value: '255';
+            --prefix: 'G:';
+          "
+        >
+          <input
+            id="g"
+            type="range"
+            min="1"
+            max="255"
+            value="255"
+          />
+          <output></output>
+          <div class="range-slider__progress"></div>
+        </div>
+        <div
+          class="range-slider"
+          style="
+            --min: 1;
+            --max: 255;
+            --value: 255;
+            --text-value: '255';
+            --prefix: 'B:';
+          "
+        >
+          <input
+            id="b"
+            type="range"
+            min="1"
+            max="255"
+            value="255"
+          />
+          <output></output>
+          <div class="range-slider__progress"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
