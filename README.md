@@ -1,3 +1,3 @@
-# Vanilla
+# rbgcolor
 
-Здесь - только ванильный HTML, CSS, JS
+Тест цветов
